@@ -128,8 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fragmentShaders.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="helperFunctions.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="setupFunctions.cpp" />
+    <ClCompile Include="shaderFunctions.cpp" />
+    <ClCompile Include="vertexShaders.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="errors.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

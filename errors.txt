@@ -1,0 +1,5 @@
+1000001 - failed to create window
+1000002 - failed to load glad
+1000003 - failed to initialize GLFW
+1000004 - failed to compile shader
+1000005 - failed to link shader program
